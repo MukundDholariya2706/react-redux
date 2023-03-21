@@ -10,7 +10,7 @@ const Router = () => {
     <Routes>
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
-        <Route path="/movie/:imdbId" element={<MovieDetail />} />
+        <Route path="/movie/:imdbID" element={<MovieDetail />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>
